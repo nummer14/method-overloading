@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        String message = "Hello, Java!";
+        String greeting = "Hello, Alice";
 
-        System.out.println(message.length());
+        System.out.println(greeting.toLowerCase());
+        System.out.println(greeting.length());
     }
 }
